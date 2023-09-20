@@ -1,0 +1,113 @@
+.bg-color {
+    background-color: rgb(16, 50, 70);
+}
+body {
+    padding-top: 100px;
+
+}
+section {
+    margin-bottom: 100px;
+  }
+.navbarScroll .navbar-nav .nav-link {
+    color: rgb(168, 240, 12);
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: larger;
+  }
+//   .bg-custom {
+//     background-color: rgb(16, 50, 70);
+//   }
+.bgimage {
+    height:100vh;
+    background: url('/../assets/images/bgimage.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.head-name{
+    font-size: 60px;
+    color: white;
+}
+.head-profile {
+    font-size: 40px;
+    color: white;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.profile-img {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    
+}
+.imageAboutPage {
+    width:280px;
+    height: 280px;
+    border-radius: 30px;
+}
+.about-text {
+    text-align: center;
+}
+
+/* services section css */
+.card {
+    transition: transform 0.3s;
+    border-radius: 10px;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+.servicesText.card {
+    height: 300px;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.para-text {
+    color: white;
+}
+.inside-text {
+    color: black;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 100%;
+  }
+.work-image {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    margin-top: 30px;
+    top:20%
+}
+.social-icons i {
+    color: #fcf8f8; /* Set the desired color */
+    font-size: 24px; /* Set the desired size */
+    margin-right: 10px; /* Add margin between icons */
+  }
+.portfolioContent{
+    height: fit-content;
+}
