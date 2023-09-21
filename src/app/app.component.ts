@@ -7,15 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
-  sendEmail() {
-    console.log('clicking');
+  // sendEmail() {
+  //   console.log('clicking');
     
-    window.location.href = "mailto:17manu1998@gmail.com";
-  }
-  sendEmail1(name: string, email: string, subject: string, message: string) {
-    const recipientEmail = 'recipient@example.com';
-    const mailtoUrl = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
-    window.open(mailtoUrl);
-  }
+  //   window.location.href = "mailto:17manu1998@gmail.com";
+  // }
+  // sendEmail1(name: string, email: string, subject: string, message: string) {
+  //   const recipientEmail = 'recipient@example.com';
+  //   const mailtoUrl = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
+  //   window.open(mailtoUrl);
+  // }
 }
 
